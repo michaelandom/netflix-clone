@@ -33,7 +33,6 @@ const Home = ({
       </Head>
       <Header />
       <main className=" relative pl-4 pb-24 lg:space-y-24 lg:pl-16">
-        {/* banner */}
         <Banner netflixOriginals={netflixOriginals} />
         <section className="md:space-y-24">
           <Row title="Trending Now" movies={trendingNow} />
