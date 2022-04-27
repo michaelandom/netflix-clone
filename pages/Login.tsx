@@ -7,7 +7,7 @@ interface Inputs {
   email: string
   password: string
 }
-function Login() {
+function login() {
   const [login, setLogin] = useState(false)
   const { signIn, signUp } = useAuth()
   const {
@@ -99,4 +99,4 @@ function Login() {
   )
 }
 
-export default Login
+export default login
